@@ -12,7 +12,7 @@ li{
 }
 
 a{
-  color: white;
+  /*color: white;*/
   text-decoration: none;
 }
 
@@ -21,12 +21,76 @@ header{
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 700px;
+  height: 720px;
 
-  background: linear-gradient(90deg, lightsalmon, lightcoral 30%);
+  background: #ff5f69;
   color: white;
 }
 
 header .col{
-    flex: 1 1 50%;
+  flex-basis: 45%;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav{
+  text-align: left;
+  /*padding-right: 17%;*/
+}
+
+header nav ul{
+    line-height: 60px;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: left;
+}
+
+header nav ul li a{
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-family: 'Slabo 27px', serif;
+}
+
+header nav ul li a:hover{
+  color: black;
+  background: white; 
+}
+
+
+header h1{
+  text-align: right;
+  padding-left: 17%;
+  font-size: 3em;
+}
+
+.decoracion-rodrigo{
+  color: #000000;
+}
+
+.decoracion-rodrigo:hover{
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+header h1::first-letter{
+  font-size: 80px;
+  color: #000000;
+
+}
+.decoracion-bo{
+  font-weight: 600;
+  color: #FFEB3B;
+}
+
+.decoracion-it{
+  font-style: italic;
+}
+
+.decoracion-sub{
+  text-decoration: underline;
 }
