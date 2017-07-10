@@ -137,3 +137,11 @@ header h1::first-letter{
   padding-top: 100px;
   background-color: #ff5f69;
 }
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #999999;
+}
