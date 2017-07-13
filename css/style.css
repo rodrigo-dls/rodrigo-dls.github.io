@@ -10,7 +10,6 @@ li {
   list-style: none; }
 
 a {
-  /*color: white;*/
   text-decoration: none; }
 
 header {
@@ -51,7 +50,7 @@ header h1 {
   font-size: 3em; }
 
 .decoracion-rodrigo {
-  color: #000000; }
+  color: black; }
 
 .decoracion-rodrigo:hover {
   border-radius: 5px;
@@ -61,7 +60,7 @@ header h1 {
 
 header h1::first-letter {
   font-size: 80px;
-  color: #000000; }
+  color: black; }
 
 .decoracion-bo {
   font-weight: 600;
