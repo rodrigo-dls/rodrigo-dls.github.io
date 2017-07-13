@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  /*color: white;*/
+  text-decoration: none;
+}
+
+header{
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 720px;
+
+  background: #ff5f69;
+  color: white;
+
+  .col{
+
+    flex-basis: 45%;
+
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+nav.col{
+  text-align: left;
+  /*padding-right: 17%;*/
+}
+
+nav {
+  ul{
+    line-height: 60px;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: left;
+  }
+
+  li a{
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  li a:hover{
+    color: black;
+    background: white; 
+  }
+}
+
+
+header h1{
+  text-align: right;
+  padding-left: 17%;
+  font-size: 3em;
+}
+
+.decoracion-rodrigo{
+  color: #000000;
+}
+
+.decoracion-rodrigo:hover{
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+header h1::first-letter{
+  font-size: 80px;
+  color: #000000;
+
+}
+.decoracion-bo{
+  font-weight: 600;
+  color: #FFEB3B;
+}
+
+.decoracion-it{
+  font-style: italic;
+}
+
+.decoracion-sub{
+  text-decoration: underline;
+}
+
+.section-profile{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  background-color: white;
+}
+
+.profile-col{
+  display: flex;
+  flex-basis: 50%;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: #0e9d9b;
+}
+
+.right{
+  padding-right: 10%;
+}
+
+.left{
+  padding-left: 150px;
+}
+
+.profile-col img{
+  align-self: center;
+  height: 100%;
+}
+
+.section-profile h2,
+.section-profile p{
+  text-align: justify;
+  margin: 20px 0;
+  font-size: 24px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.estudios{
+  padding-top: 100px;
+  background-color: #ff5f69;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #999999;
+  
+}
