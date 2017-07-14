@@ -64,7 +64,7 @@ header h1::first-letter {
 
 .decoracion-bo {
   font-weight: 600;
-  color: #FFEB3B; }
+  color: #B8FF5F; }
 
 .decoracion-it {
   font-style: italic; }
@@ -112,6 +112,6 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  background-color: #999999; }
+  background-color: #B0857A; }
 
 /*# sourceMappingURL=style.css.map */

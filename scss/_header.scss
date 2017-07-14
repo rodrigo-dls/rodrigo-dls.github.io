@@ -1,0 +1,82 @@
+header{
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 720px;
+
+  background: $background-color-1;
+  color: white;
+
+  .col{
+
+    flex-basis: 45%;
+
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+nav.col{
+  text-align: left;
+  /*padding-right: 17%;*/
+}
+
+nav {
+  ul{
+    line-height: 60px;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: left;
+  }
+
+  li a{
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  li a:hover{
+    color: black;
+    background: white; 
+  }
+}
+
+
+header h1{
+  text-align: right;
+  padding-left: 17%;
+  font-size: 3em;
+}
+
+.decoracion-rodrigo{
+  color: $decoration-color;
+}
+
+.decoracion-rodrigo:hover{
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: $decoration-color;
+}
+
+header h1::first-letter{
+  font-size: 80px;
+  color: $decoration-color;
+
+}
+.decoracion-bo{
+  font-weight: 600;
+  color: $decoration-color-2;
+}
+
+.decoracion-it{
+  font-style: italic;
+}
+
+.decoracion-sub{
+  text-decoration: underline;
+}
