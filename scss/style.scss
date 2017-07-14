@@ -1,0 +1,47 @@
+@import 'color-variables';
+@import 'global-style';
+@import 'header';
+@import 'footer';
+
+.section-profile{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  background-color: white;
+}
+
+.profile-col{
+  display: flex;
+  flex-basis: 50%;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: $main-font-color;
+}
+
+.right{
+  padding-right: 10%;
+}
+
+.left{
+  padding-left: 150px;
+}
+
+.profile-col img{
+  align-self: center;
+  height: 100%;
+}
+
+.section-profile h2,
+.section-profile p{
+  text-align: justify;
+  margin: 20px 0;
+  font-size: 24px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.estudios{
+  padding-top: 100px;
+  background-color: $background-color-1;
+}
