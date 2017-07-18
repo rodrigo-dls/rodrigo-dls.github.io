@@ -72,6 +72,13 @@ header h1::first-letter {
 .decoracion-sub {
   text-decoration: underline; }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #B0857A; }
+
 .section-profile {
   display: flex;
   justify-content: center;
@@ -106,12 +113,5 @@ header h1::first-letter {
 .estudios {
   padding-top: 100px;
   background-color: #ff5f69; }
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100px;
-  background-color: #B0857A; }
 
 /*# sourceMappingURL=style.css.map */
