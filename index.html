@@ -4,37 +4,55 @@
 	<meta charset="utf-8">
 	<title>Rodrigo de los Santos</title>
 
+	<!-- Fontawesome Fonts -->
 	<script src="https://use.fontawesome.com/5c204fa100.js"></script>
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Work+Sans" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/vendor/bootstrap.css">
+	
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 		<header>
-			<h1 class="col">Hola, soy <span class= "decoracion-rodrigo">Rodrigo. </span><br><span class="decoracion-it">Bienvenido a mi espacio, </span><span class="decoracion-bo">conoceme.</span></h1>
-			<nav class="col">
-				<ul>
-					<li><a href="#">Quién soy</a></li>
-					<li><a href="#">Algunas cosas que estudié</a></li>
-					<li><a href="#">Qué hice hasta ahora</a></li>
-					<li><a href="#">Sabé más de mí</a></li>
-					<li><a href="#">Cómo contactarme</a></li>
-				</ul>
-			</nav>
+		<div class="container-fluid">
+			<div class="row center-block">
+				<div class="col-md-5 header-col">
+					<h1 class="heading-font">
+					Hola, soy <span class= "decoracion-rodrigo">Rodrigo. </span><br><span class="decoracion-it">Bienvenido a mi espacio, </span><span class="decoracion-bo">conoceme.</span>
+					</h1>
+				</div>
+				<div class="col-md-5 col-md-offset-1 header-col">
+					<nav>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a href="#">Quién soy</a></li>
+							<li><a href="#">Algunas cosas que estudié</a></li>
+							<li><a href="#">Qué hice hasta ahora</a></li>
+							<li><a href="#">Sabé más de mí</a></li>
+							<li><a href="#contact">Trabajemos juntos!</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
 		</header>
 
 
 	<section class="section-profile">
-
-		<div class="profile-col">
-			<img src="images/profile-img.jpg" >
-		</div>
-		<div class="profile-col right">
-		  <h2>26 años.</h2>
-		  <h2>Buenos Aires, Argentina.</h2>
-			<p>Me gusta vivir el presente aprovechando al máximo mi tiempo de cada día. LLevo una vida activa, entreno practico con frecuencia mis dos deportes preferidos, fútbol y tenis. También leo mucho y practico la meditación a diario.</p>
-			<p>Actualmente estoy muy motivado por el mundo del desarrollo web. Hace más de un año que estoy en él y cada día me siento más atraído.</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 profile-col">
+					<img src="images/profile-img.jpg" alt="En mi visita al Wynwood neighbourhood en Miami" class="img-responsive" >
+				</div>
+				<div class="col-md-6 col-md-offset-1 profile-col">
+				  <h2>26 años.</h2>
+				  <h2>Buenos Aires, Argentina.</h2>
+					<p>Me gusta vivir el presente aprovechando al máximo mi tiempo de cada día. LLevo una vida activa, entreno practico con frecuencia mis dos deportes preferidos, fútbol y tenis. También leo mucho y practico la meditación a diario.</p>
+					<p>Actualmente estoy muy motivado por el mundo del desarrollo web. Hace más de un año que estoy en él y cada día me siento más atraído.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -129,30 +147,89 @@
 
 		  <p class="texto-regular">Mi trabajo consiste en correr la comida de uno de los restaurantes más exitosos de la isla, coordinando dos cocinas al mismo tiempo y hablando tanto inglés como español según sea necesario.</p>
 
-		 	</li>
+			</li>
 
 		</ul>
 	</section>
 
-	<section>
-		<h2>Contactate conmigo! Podemos hacer grandes cosas. Nada mas decime</h2>
-		<form method="post" action="contact-messages">
-			<label for="POST-name">Quien sos</label>
-			<input type="text" id="POST" name="name">
-			<label for="POST-content">Cual es tu idea</label>
-			<input type="text" id="POST-content" name="content">
-			<label for="POST-email">Y a donde responderte</label>
-			<input type="text" id="POST-email" name="email">
-			<input type="button">
-		</form>
-		<h3>Listo!</h3>		
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Hablame! Podemos hacer grandes cosas juntos. Nada más decime</h2>
+				</div>
+				<div class="col-md-6">
+					<form method="post" action="contact-messages">
+						<label for="POST-name">Cómo te llamás</label>
+						<input type="text" id="POST" name="name">
+						<label for="POST-content">Cual es tu idea</label>
+						<input type="text" id="POST-content" name="content">
+						<label for="POST-email">Y a donde responderte</label>
+						<input type="text" id="POST-email" name="email">
+						<input type="button" value="">
+					</form>
+
+
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputName2">Cómo te llamás</label>
+					    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputEmail2">Email</label>
+					    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+					  </div>
+					  <input type="text" class="form-control" placeholder="Text input">
+					  <button type="submit" class="btn btn-default">Send invitation</button>
+					</form>
+					<form action="https://facebook.us16.list-manage.com/subscribe/post" method="POST">
+					 <input type="hidden" name="u" value="3245d6e02d2a1bff9447c8de9">
+					 <input type="hidden" name="id" value="bd2a5ddec8">
+
+					 <div id="mergeTable" class="mergeTable">
+
+
+					  <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
+					   <label for="MERGE0">A dónde responderte <span class="req asterisk">*</span></label>
+					   <div class="field-group">
+					    <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+
+
+					   </div>
+
+					  </div>
+
+
+					  <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-1">
+					   <label for="MERGE1">Cómo te llamás <span class="req asterisk">*</span></label>
+					   <div class="field-group">
+					    <input type="text" name="MERGE1" id="MERGE1" size="25" value="">
+
+
+					   </div>
+
+					  </div>
+
+
+					 </div>
+
+
+					 <div class="submit_container clear">
+					  <input type="submit" class="button" name="submit" value="Subscribe to list">
+					 </div>
+					 <input type="hidden" name="ht" value="dfeb54266586a93b7cce26fdcec18c2270a3f9e5:MTUwMjIzMzA3NC43MjUx">
+					 <input type="hidden" name="mc_signupsource" value="hosted">
+					</form>
+					<h3>Listo!</h3>
+				</div>
+			</div>
+		</div>	
 	</section>
 
 	<footer>
 		<h2>Creada por mí, visitada por ustedes.</h2>
 		<a href="https://github.com/rodrigo-dls/rodrigo-dls.github.io"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 		<p>CABA, Buenos Aires, Argentina. 2017</p>
-		
 	</footer>
 </body>
 </html>

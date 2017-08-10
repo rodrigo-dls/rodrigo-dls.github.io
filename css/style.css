@@ -13,28 +13,17 @@ a {
   text-decoration: none; }
 
 header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
   height: 720px;
   background: #ff5f69;
   color: white; }
-  header .col {
-    flex-basis: 45%;
+  header .heading-font {
     font-family: 'Open Sans', sans-serif; }
-
-nav.col {
-  text-align: left;
-  /*padding-right: 17%;*/ }
+  header .header-col {
+    padding: 0; }
 
 nav ul {
   line-height: 60px;
-  font-size: 30px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: left; }
+  font-size: 30px; }
 nav li a {
   border-radius: 5px;
   color: white;
@@ -73,35 +62,18 @@ header h1::first-letter {
   text-decoration: underline; }
 
 footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   height: 100px;
   background-color: #B0857A; }
 
+#contact {
+  background-color: #42b2ef; }
+
 .section-profile {
-  display: flex;
-  justify-content: center;
   height: 600px;
   background-color: white; }
 
 .profile-col {
-  display: flex;
-  flex-basis: 50%;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-start;
   color: #0e9d9b; }
-
-.right {
-  padding-right: 10%; }
-
-.left {
-  padding-left: 150px; }
-
-.profile-col img {
-  align-self: center;
-  height: 100%; }
 
 .section-profile h2,
 .section-profile p {

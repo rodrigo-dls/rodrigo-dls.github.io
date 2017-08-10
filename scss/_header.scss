@@ -1,35 +1,22 @@
 header{
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
   height: 720px;
 
   background: $background-color-1;
   color: white;
 
-  .col{
-
-    flex-basis: 45%;
-
+  .heading-font{
     font-family: 'Open Sans', sans-serif;
   }
-}
 
-nav.col{
-  text-align: left;
-  /*padding-right: 17%;*/
+  .header-col {
+    padding: 0;
+  }
 }
 
 nav {
   ul{
     line-height: 60px;
     font-size: 30px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: left;
   }
 
   li a{
@@ -44,7 +31,6 @@ nav {
     background: white; 
   }
 }
-
 
 header h1{
   text-align: right;
