@@ -14,29 +14,64 @@ a {
 
 header {
   height: 720px;
-  background: #ff5f69;
+  background: url("../images/header/header-bg-3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white; }
+  header .header-wrapper {
+    margin: 100px 0; }
+    header .header-wrapper nav ul {
+      line-height: 60px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center; }
+      header .header-wrapper nav ul li {
+        margin: 0 60px; }
+        header .header-wrapper nav ul li a {
+          position: relative;
+          border-radius: 5px;
+          color: white;
+          padding: 5px;
+          font-family: "Source Sans Pro", sans-serif; }
+        header .header-wrapper nav ul li a:hover {
+          color: white;
+          text-decoration: none; }
+        header .header-wrapper nav ul li a::before {
+          position: absolute;
+          content: "";
+          height: 2px;
+          width: 0;
+          background: white;
+          transition: all 0.25s linear;
+          bottom: 0;
+          right: 50%; }
+        header .header-wrapper nav ul li a:hover::before {
+          width: 50%; }
+        header .header-wrapper nav ul li a::after {
+          position: absolute;
+          content: "";
+          height: 2px;
+          width: 0;
+          background: white;
+          transition: all 0.25s linear;
+          bottom: 0;
+          left: 50%; }
+        header .header-wrapper nav ul li a:hover::after {
+          width: 50%; }
   header .heading-font {
-    font-family: 'Open Sans', sans-serif; }
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400; }
+    header .heading-font h1 {
+      font-size: 72px;
+      line-height: 60px;
+      margin-bottom: 20px; }
+    header .heading-font h3 {
+      font-size: 32px;
+      line-height: 32px; }
   header .header-col {
     padding: 0; }
-
-nav ul {
-  line-height: 60px;
-  font-size: 30px; }
-nav li a {
-  border-radius: 5px;
-  color: white;
-  padding: 5px;
-  font-family: 'Work Sans', sans-serif; }
-nav li a:hover {
-  color: black;
-  background: white; }
-
-header h1 {
-  text-align: right;
-  padding-left: 17%;
-  font-size: 3em; }
 
 .decoracion-rodrigo {
   color: black; }
@@ -46,10 +81,6 @@ header h1 {
   padding: 5px;
   color: white;
   background-color: black; }
-
-header h1::first-letter {
-  font-size: 80px;
-  color: black; }
 
 .decoracion-bo {
   font-weight: 600;
@@ -67,6 +98,9 @@ footer {
 
 #contact {
   background-color: #42b2ef; }
+
+body {
+  margin: 20px; }
 
 .section-profile {
   height: 600px;
