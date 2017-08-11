@@ -2,35 +2,18 @@
 @import 'global-style';
 @import 'header';
 @import 'footer';
+@import 'contact';
 
+body {
+  margin: 20px;
+}
 .section-profile{
-  display: flex;
-  justify-content: center;
   height: 600px;
   background-color: white;
 }
 
 .profile-col{
-  display: flex;
-  flex-basis: 50%;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-start;
-
   color: $main-font-color;
-}
-
-.right{
-  padding-right: 10%;
-}
-
-.left{
-  padding-left: 150px;
-}
-
-.profile-col img{
-  align-self: center;
-  height: 100%;
 }
 
 .section-profile h2,
