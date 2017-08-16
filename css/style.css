@@ -71,7 +71,7 @@ header {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400; }
     header .heading-font h1 {
-      font-size: 72px;
+      font-size: 60px;
       line-height: 60px;
       margin-bottom: 20px; }
     header .heading-font h3 {
@@ -105,9 +105,6 @@ footer {
 
 #contact {
   background-color: #42b2ef; }
-
-body {
-  margin: 20px; }
 
 .section-profile {
   background-color: #f6f6f6;
