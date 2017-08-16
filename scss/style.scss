@@ -8,23 +8,19 @@ body {
   margin: 20px;
 }
 .section-profile{
-  height: 600px;
-  background-color: white;
-}
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
 
-.profile-col{
-  color: $main-font-color;
-}
+  .profile-col{
+    color: $main-font-color;
+    font-family: $main-font;
+    
+    h2 {
+      font-size: 48px;
+    }
 
-.section-profile h2,
-.section-profile p{
-  text-align: justify;
-  margin: 20px 0;
-  font-size: 24px;
-  font-family: 'Work Sans', sans-serif;
-}
-
-.estudios{
-  padding-top: 100px;
-  background-color: $background-color-1;
+    p {
+      font-size: 20px;
+    }
+  }
 }
