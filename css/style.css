@@ -13,7 +13,7 @@ a {
   text-decoration: none; }
 
 header {
-  height: 720px;
+  margin-bottom: 10px;
   background: url("../images/header/header-bg-3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -21,7 +21,7 @@ header {
   background-size: cover;
   color: white; }
   header .header-wrapper {
-    margin: 100px 0; }
+    margin: 50px 0 40px 0; }
     header .header-wrapper nav ul {
       line-height: 60px;
       font-size: 30px;
@@ -60,11 +60,18 @@ header {
           left: 50%; }
         header .header-wrapper nav ul li a:hover::after {
           width: 50%; }
+  header .profile-img {
+    height: auto;
+    max-width: 100%;
+    max-height: 250px;
+    margin-bottom: 140px;
+    margin-top: 25px;
+    border: solid white 5px; }
   header .heading-font {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400; }
     header .heading-font h1 {
-      font-size: 72px;
+      font-size: 60px;
       line-height: 60px;
       margin-bottom: 20px; }
     header .heading-font h3 {
@@ -99,25 +106,15 @@ footer {
 #contact {
   background-color: #42b2ef; }
 
-body {
-  margin: 20px; }
-
 .section-profile {
-  height: 600px;
-  background-color: white; }
-
-.profile-col {
-  color: #0e9d9b; }
-
-.section-profile h2,
-.section-profile p {
-  text-align: justify;
-  margin: 20px 0;
-  font-size: 24px;
-  font-family: 'Work Sans', sans-serif; }
-
-.estudios {
-  padding-top: 100px;
-  background-color: #ff5f69; }
+  background-color: #f6f6f6;
+  margin-bottom: 10px; }
+  .section-profile .profile-col {
+    color: #0e9d9b;
+    font-family: "Source Sans Pro", sans-serif; }
+    .section-profile .profile-col h2 {
+      font-size: 48px; }
+    .section-profile .profile-col p {
+      font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

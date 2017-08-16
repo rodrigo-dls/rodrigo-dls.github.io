@@ -1,6 +1,5 @@
 header{
-  height: 720px;
-
+  margin-bottom: 10px;
   background: url("../images/header/header-bg-3.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,7 +8,7 @@ header{
   color: white;
 
   .header-wrapper {
-    margin: 100px 0;
+    margin: 50px 0 40px 0;
 
     nav {
       ul {
@@ -27,7 +26,7 @@ header{
             border-radius: 5px;
             color: white;
             padding: 5px;
-            font-family: "Source Sans Pro", sans-serif;
+            font-family: $main-font;
           }
 
           a:hover {
@@ -69,12 +68,22 @@ header{
     }
   }
 
+  .profile-img {
+    height: auto;
+    max-width: 100%;
+    max-height: 250px;
+    margin-bottom: 140px;
+    margin-top: 25px;
+
+    border: solid white 5px;
+  }
+
   .heading-font {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: $main-font;
     font-weight: 400;
 
     h1 {
-      font-size: 72px;
+      font-size: 60px;
       line-height: 60px;
       margin-bottom: 20px;
     }
