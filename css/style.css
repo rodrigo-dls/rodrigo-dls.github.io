@@ -111,28 +111,34 @@ header {
     #profile .profile-col p {
       font-size: 30px; }
 
-#life-profiles .box-profile-wrapper .box-profile:nth-of-type(1) {
-  background-color: #f6653c; }
-#life-profiles .box-profile-wrapper .box-profile:nth-of-type(2) {
-  background-color: #a22c0a; }
-#life-profiles .box-profile-wrapper .box-profile {
-  height: auto;
-  width: 50%;
-  transition: all 0.5s linear;
+#life-profiles {
   padding: 0; }
-  #life-profiles .box-profile-wrapper .box-profile a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    height: 150px;
-    text-decoration: none; }
-    #life-profiles .box-profile-wrapper .box-profile a h2 {
-      font-size: 40px; }
-#life-profiles .box-profile-wrapper .box-profile:hover {
-  background-color: black; }
+  #life-profiles .box-profile-wrapper .box-profile:nth-of-type(1) {
+    background-color: #f6653c; }
+  #life-profiles .box-profile-wrapper .box-profile:nth-of-type(2) {
+    background-color: #a22c0a; }
+  #life-profiles .box-profile-wrapper .box-profile {
+    height: auto;
+    width: 50%;
+    transition: all 0.5s linear;
+    padding: 0; }
+    #life-profiles .box-profile-wrapper .box-profile a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans Pro", sans-serif;
+      color: white;
+      height: 150px;
+      text-decoration: none; }
+      #life-profiles .box-profile-wrapper .box-profile a h2 {
+        font-size: 28px;
+        line-height: 35px; }
+  #life-profiles .box-profile-wrapper .box-profile:hover {
+    background-color: black; }
 
+@media (min-width: 768px) {
+  body #life-profiles .box-profile-wrapper .box-profile a h2 {
+    font-size: 40px; } }
 footer {
   height: 100px;
   background-color: #007674; }
@@ -147,5 +153,9 @@ footer {
 
 section {
   padding: 45px 0; }
+
+section,
+header {
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

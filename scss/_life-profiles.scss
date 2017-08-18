@@ -1,4 +1,5 @@
 #life-profiles {
+	padding: 0;
 
   .box-profile-wrapper {
 
@@ -26,14 +27,21 @@
         text-decoration: none;
 
         h2{
-          font-size: 40px;
+			    font-size: 28px;
+			    line-height: 35px;
         }
       }
-
     }
 
     .box-profile:hover {
       background-color: $decoration-color;
     }
   }
+}
+
+
+@media (min-width: 768px) {
+	body #life-profiles .box-profile-wrapper .box-profile a h2 {
+		font-size: 40px;
+	}
 }
