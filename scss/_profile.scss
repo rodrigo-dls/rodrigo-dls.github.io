@@ -1,0 +1,17 @@
+#profile{
+  background-color: $background-color-1;
+  margin-bottom: 10px;
+
+  .profile-col{
+    color: $main-font-color;
+    font-family: $main-font;
+    
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 30px;
+    }
+  }
+}

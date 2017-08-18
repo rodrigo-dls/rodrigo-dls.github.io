@@ -1,0 +1,39 @@
+#life-profiles {
+
+  .box-profile-wrapper {
+
+    .box-profile:nth-of-type(1) {
+      background-color: #f6653c;
+    }
+
+    .box-profile:nth-of-type(2) {
+      background-color: #a22c0a;
+    }
+
+   .box-profile {
+      height: auto;
+      width: 50%;
+      transition: all 0.5s linear;
+      padding: 0;
+
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $main-font;
+        color: $color-1;
+        height: 150px;
+        text-decoration: none;
+
+        h2{
+          font-size: 40px;
+        }
+      }
+
+    }
+
+    .box-profile:hover {
+      background-color: $decoration-color;
+    }
+  }
+}

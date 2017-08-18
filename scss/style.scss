@@ -1,26 +1,17 @@
 @import 'color-variables';
 @import 'global-style';
 @import 'header';
+@import 'profile';
+@import 'life-profiles';
 @import 'footer';
 @import 'contact';
 
 body {
   // margin: 3%;
 }
-.section-profile{
-  background-color: #f6f6f6;
-  margin-bottom: 10px;
 
-  .profile-col{
-    color: $main-font-color;
-    font-family: $main-font;
-    
-    h2 {
-      font-size: 48px;
-    }
-
-    p {
-      font-size: 20px;
-    }
-  }
+section{
+  padding: 45px 0;
 }
+
+
