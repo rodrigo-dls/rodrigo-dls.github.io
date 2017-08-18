@@ -13,6 +13,7 @@ a {
   text-decoration: none; }
 
 header {
+  height: 100vh;
   margin-bottom: 10px;
   background: url("../images/header/header-bg-3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -99,22 +100,52 @@ header {
 .decoracion-sub {
   text-decoration: underline; }
 
-footer {
-  height: 100px;
-  background-color: #B0857A; }
-
-#contact {
-  background-color: #42b2ef; }
-
-.section-profile {
+#profile {
   background-color: #f6f6f6;
   margin-bottom: 10px; }
-  .section-profile .profile-col {
+  #profile .profile-col {
     color: #0e9d9b;
     font-family: "Source Sans Pro", sans-serif; }
-    .section-profile .profile-col h2 {
-      font-size: 48px; }
-    .section-profile .profile-col p {
-      font-size: 20px; }
+    #profile .profile-col h2 {
+      font-size: 40px; }
+    #profile .profile-col p {
+      font-size: 30px; }
+
+#life-profiles .box-profile-wrapper .box-profile:nth-of-type(1) {
+  background-color: #f6653c; }
+#life-profiles .box-profile-wrapper .box-profile:nth-of-type(2) {
+  background-color: #a22c0a; }
+#life-profiles .box-profile-wrapper .box-profile {
+  height: auto;
+  width: 50%;
+  transition: all 0.5s linear;
+  padding: 0; }
+  #life-profiles .box-profile-wrapper .box-profile a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    height: 150px;
+    text-decoration: none; }
+    #life-profiles .box-profile-wrapper .box-profile a h2 {
+      font-size: 40px; }
+#life-profiles .box-profile-wrapper .box-profile:hover {
+  background-color: black; }
+
+footer {
+  height: 100px;
+  background-color: #007674; }
+
+#contact {
+  background-color: #47b3b1;
+  color: #f6f6f6; }
+  #contact h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 45px;
+    font-size: 35px; }
+
+section {
+  padding: 45px 0; }
 
 /*# sourceMappingURL=style.css.map */

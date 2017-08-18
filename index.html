@@ -51,14 +51,31 @@
 	</header>
 
 
-	<section class="section-profile">
+	<section id="profile">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 profile-col">
 				  <h2>26 años.</h2>
 				  <h2>Buenos Aires, Argentina.</h2>
-					<p>Me gusta vivir el presente aprovechando al máximo mi tiempo de cada día. Llevo una vida activa, entreno practico con frecuencia mis dos deportes preferidos, fútbol y tenis. También leo mucho y practico la meditación a diario.</p>
+					<p>Me gusta vivir el presente aprovechando al máximo mi tiempo de cada día. Llevo una vida activa, practico con frecuencia mis dos deportes preferidos, fútbol y tenis. También leo mucho y practico la meditación a diario.</p>
 					<p>Actualmente estoy muy motivado por el mundo del desarrollo web. Hace más de un año que estoy en él y cada día me siento más atraído.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="life-profiles">
+		<div class="container-fluid">
+			<div class="row box-profile-wrapper">
+				<div class="col-sm-6 col-xs-12 box-profile text-center">
+					<a href="persona">
+						<h2>Conoce a la persona</h2>
+					</a>
+				</div>
+				<div class="col-sm-6 col-xs-12 box-profile text-center">
+					<a href="resume">
+						<h2>Conoce al trabajador</h2>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -67,72 +84,29 @@
 	<section id="contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5">
 					<h2>Hablame! Podemos hacer grandes cosas juntos. Nada más decime</h2>
 				</div>
-				<div class="col-md-6">
-					<form method="post" action="contact-messages">
-						<label for="POST-name">Cómo te llamás</label>
-						<input type="text" id="POST" name="name">
-						<label for="POST-content">Cual es tu idea</label>
-						<input type="text" id="POST-content" name="content">
-						<label for="POST-email">Y a donde responderte</label>
-						<input type="text" id="POST-email" name="email">
-						<input type="button" value="">
-					</form>
-
-
+				<div class="col-md-6 col-md-offset-1">
 					<form>
 					  <div class="form-group">
-					    <label for="exampleInputName2">Cómo te llamás</label>
-					    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+					    <label for="exampleInputName2" class="sr-only">Cómo te llamás</label>
+					    <input type="text" class="form-control" id="exampleInputName2" placeholder="Cómo te llamás">
 					  </div>
 					  <div class="form-group">
-					    <label for="exampleInputEmail2">Email</label>
-					    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+					  <textarea class="form-control" rows="3" placeholder="Cuál es tu idea"></textarea>
+						  <!-- <input type="text" class="form-control" placeholder="Cual es tu idea"> -->
 					  </div>
-					  <input type="text" class="form-control" placeholder="Text input">
-					  <button type="submit" class="btn btn-default">Send invitation</button>
+					  <div class="form-group">
+					    <label for="exampleInputEmail2" class="sr-only">Email</label>
+							<div class="input-group">
+							  <span class="input-group-addon" id="sizing-addon2">@</span>
+							  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Y a dónde responderte" aria-describedby="sizing-addon2">
+							</div>
+							<!-- 					    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Y a donde responderte"> -->
+					  </div>
+					  <button type="submit" class="btn btn-default">Listo!</button>
 					</form>
-					<form action="https://facebook.us16.list-manage.com/subscribe/post" method="POST">
-					 <input type="hidden" name="u" value="3245d6e02d2a1bff9447c8de9">
-					 <input type="hidden" name="id" value="bd2a5ddec8">
-
-					 <div id="mergeTable" class="mergeTable">
-
-
-					  <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
-					   <label for="MERGE0">A dónde responderte <span class="req asterisk">*</span></label>
-					   <div class="field-group">
-					    <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
-
-
-					   </div>
-
-					  </div>
-
-
-					  <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-1">
-					   <label for="MERGE1">Cómo te llamás <span class="req asterisk">*</span></label>
-					   <div class="field-group">
-					    <input type="text" name="MERGE1" id="MERGE1" size="25" value="">
-
-
-					   </div>
-
-					  </div>
-
-
-					 </div>
-
-
-					 <div class="submit_container clear">
-					  <input type="submit" class="button" name="submit" value="Subscribe to list">
-					 </div>
-					 <input type="hidden" name="ht" value="dfeb54266586a93b7cce26fdcec18c2270a3f9e5:MTUwMjIzMzA3NC43MjUx">
-					 <input type="hidden" name="mc_signupsource" value="hosted">
-					</form>
-					<h3>Listo!</h3>
 				</div>
 			</div>
 		</div>	

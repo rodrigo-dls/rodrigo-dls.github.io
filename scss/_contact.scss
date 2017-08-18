@@ -1,3 +1,10 @@
 #contact {
 	background-color: $background-color-2;
+	color: $background-color-1;
+
+	h2 {
+		font-family: $main-font;
+		line-height: 45px;
+		font-size: 35px;
+	}
 }
