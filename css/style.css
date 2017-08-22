@@ -151,6 +151,9 @@ footer {
     line-height: 45px;
     font-size: 35px; }
 
+@media (min-width: 1000px) {
+  body {
+    margin: 3%; } }
 section {
   padding: 45px 0; }
 
