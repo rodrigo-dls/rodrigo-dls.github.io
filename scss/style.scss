@@ -6,12 +6,19 @@
 @import 'footer';
 @import 'contact';
 
-body {
-  // margin: 3%;
+@media (min-width: 1000px) {
+  body {
+    // margin: 3%;
+  }
 }
 
 section{
   padding: 45px 0;
+}
+
+section,
+header {
+  margin-bottom: 10px;
 }
 
 

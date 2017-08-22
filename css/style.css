@@ -111,31 +111,58 @@ header {
     #profile .profile-col p {
       font-size: 30px; }
 
-#life-profiles .box-profile-wrapper .box-profile:nth-of-type(1) {
-  background-color: #f6653c; }
-#life-profiles .box-profile-wrapper .box-profile:nth-of-type(2) {
-  background-color: #a22c0a; }
-#life-profiles .box-profile-wrapper .box-profile {
-  height: auto;
-  width: 50%;
-  transition: all 0.5s linear;
+#life-profiles {
   padding: 0; }
-  #life-profiles .box-profile-wrapper .box-profile a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    height: 150px;
-    text-decoration: none; }
-    #life-profiles .box-profile-wrapper .box-profile a h2 {
-      font-size: 40px; }
-#life-profiles .box-profile-wrapper .box-profile:hover {
-  background-color: black; }
+  #life-profiles .box-profile-wrapper .box-profile:nth-of-type(1) {
+    background-color: #f6653c; }
+  #life-profiles .box-profile-wrapper .box-profile:nth-of-type(2) {
+    background-color: #a22c0a; }
+  #life-profiles .box-profile-wrapper .box-profile {
+    height: auto;
+    width: 50%;
+    transition: all 0.5s linear;
+    padding: 0; }
+    #life-profiles .box-profile-wrapper .box-profile a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans Pro", sans-serif;
+      color: white;
+      height: 150px;
+      text-decoration: none; }
+      #life-profiles .box-profile-wrapper .box-profile a h2 {
+        font-size: 28px;
+        line-height: 35px; }
+  #life-profiles .box-profile-wrapper .box-profile:hover {
+    background-color: black; }
 
+@media (min-width: 768px) {
+  body #life-profiles .box-profile-wrapper .box-profile a h2 {
+    font-size: 40px; } }
 footer {
-  height: 100px;
-  background-color: #007674; }
+  background-color: #252525;
+  color: #777777;
+  padding: 20px 0; }
+  footer p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px; }
+  footer .footer-icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .footer-icon-wrapper .footer-icon {
+      color: #777777;
+      transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -webkit-transition: all 0.2s linear; }
+    footer .footer-icon-wrapper .footer-icon:nth-child(1):hover {
+      color: #0077b5; }
+    footer .footer-icon-wrapper .footer-icon:nth-child(2):hover {
+      color: white; }
+    footer .footer-icon-wrapper .footer-icon:nth-child(3):hover {
+      color: #ab358e; }
+    footer .footer-icon-wrapper .footer-icon:nth-child(4):hover {
+      color: #ff6700; }
 
 #contact {
   background-color: #47b3b1;
@@ -147,5 +174,9 @@ footer {
 
 section {
   padding: 45px 0; }
+
+section,
+header {
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

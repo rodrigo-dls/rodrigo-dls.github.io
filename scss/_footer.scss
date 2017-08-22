@@ -1,5 +1,37 @@
 footer{
-  height: 100px;
-  background-color: #007674;
-  
+	background-color: #252525;
+  color: #777777;
+  padding: 20px 0;
+
+  p {
+	  font-family: $main-font;
+	  font-size: 20px;
+  }
+
+  .footer-icon-wrapper {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+
+  	.footer-icon {
+  		color: #777777;
+
+			transition: all 0.2s linear;
+	    -moz-transition: all 0.2s linear;
+	    -webkit-transition: all 0.2s linear;
+  	}
+
+  	.footer-icon:nth-child(1):hover {
+  		color: #0077b5;
+  	}
+  	.footer-icon:nth-child(2):hover {
+  		color: white;
+  	}
+  	.footer-icon:nth-child(3):hover {
+  		color: #ab358e;
+  	}
+  	.footer-icon:nth-child(4):hover {
+  		color: #ff6700;
+  	}  	
+  }
 }
